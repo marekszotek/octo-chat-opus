@@ -1,5 +1,5 @@
 import ChannelView from "../view/ChannelView.js";
-import {getCurrentUserPromise} from "./currentUserController.js";
+import {getCurrentUserPromise} from "./CurrentUserController.js";
 
 getCurrentUserPromise().then(function (result) {
 
