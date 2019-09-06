@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ZTML Login</title>
+    <link rel="stylesheet" href="assets/styles/login.css"/>
+
+</head>
+
+<body>
+
+<div id="background-image"></div>
+
+<section id="primary-login-section">
+
+    <div id="primary-login-container">
+
+        <div id="logo-container">
+            <img src="assets/images/logo/logo.png" alt="ZTML Logo"/>
+        </div>
+
+        <div id="login-form-container">
+            <div id="login-form">
+                <label for="user-login-name">Name</label>
+                <button onclick="signInWithGoogle()" type="submit" id="login-button">Sign in with Google</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-functions.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+<!--<script>-->
+    <!--// Initialize Firebase-->
+    <!--const config = {-->
+        <!--apiKey: "AIzaSyD9A0VUu5HP-VcJW2qUtdUt7p3s-JH-8cI",-->
+        <!--authDomain: "mtl-chat.firebaseapp.com",-->
+        <!--databaseURL: "https://mtl-chat.firebaseio.com",-->
+        <!--projectId: "mtl-chat",-->
+        <!--storageBucket: "mtl-chat.appspot.com",-->
+        <!--messagingSenderId: "718509635861"-->
+    <!--};-->
+    <!--firebase.initializeApp(config);-->
+  <!--</script>-->
+<script src="scripts/auth.js"></script>
+
+</html>
